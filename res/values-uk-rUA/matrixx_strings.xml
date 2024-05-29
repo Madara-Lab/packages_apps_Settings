@@ -390,4 +390,32 @@
     <string name="backup_copy_data_summary">Back up data, restore, and transfer</string>
     <string name="wellbeing_title">Digital wellbeing</string>
     <string name="wellbeing_summary">Digital wellbeing and parental controls</string>
+    <!-- Duress wipe -->
+    <string name="duress_pwd_pref_title">Пароль під примусом</string>
+    <string name="duress_pwd_description">"Пароль під примусом можна ввести замість звичайного пароля користувача в будь-якому місці, де він запитується (наприклад, на екрані блокування будь-якого користувача або в запиті пароля для робочого профілю).
+
+Введення пароля під примусом негайно зробить вміст сховища назавжди недоступним, видалить усі eSIM і вимкне пристрій. Встановлена система Android залишиться.
+
+PIN-код під примусом працює так само, як і пароль під примусом."</string>
+    <string name="duress_pwd_enter_pin">Введіть PIN-код під примусом</string>
+    <string name="duress_pwd_confirm_pin">Підтвердьте PIN-код під примусом</string>
+    <string name="duress_pwd_enter_password">Введіть пароль під примусом</string>
+    <string name="duress_pwd_confirm_password">Підтвердьте пароль під примусом</string>
+    <string name="duress_pwd_action_add">Додати PIN-код та пароль під примусом</string>
+    <string name="duress_pwd_add_button">Додати</string>
+    <string name="duress_pwd_toast_added">PIN-код та пароль під примусом додано</string>
+    <string name="duress_pwd_toast_updated">PIN-код та пароль під примусом оновлено</string>
+    <string name="duress_pwd_update_button">Оновити</string>
+    <string name="duress_pwd_cancel_button">Скасувати</string>
+    <string name="duress_pwd_proceed_button">Продовжити</string>
+    <string name="duress_pwd_delete_button">Видалити</string>
+    <string name="duress_pwd_action_update">Оновити PIN-код та пароль під примусом</string>
+    <string name="duress_pwd_action_delete">Видалити PIN-код та пароль під примусом</string>
+    <string name="duress_pwd_action_delete_confirmation">Видалити PIN-код та пароль під примусом?</string>
+    <string name="duress_pwd_save_warning_title">УВАГА</string>
+    <string name="duress_pwd_save_warning_text">"Введення PIN-коду/пароля під примусом замість звичайного PIN-коду/пароля користувача <b>негайно зробить вміст сховища назавжди недоступним</b> та видалить усі eSIM."</string>
+    <string name="duress_pwd_save_error">PIN-код та пароль під примусом не збережено.\n\nДеталі:\n%1$s</string>
+    <string name="duress_pwd_delete_error">PIN-код та пароль під примусом не видалено.\n\nДеталі:\n%1$s</string>
+    <string name="duress_pwd_error_dialog_dismiss">Закрити</string>
+
 </resources>
