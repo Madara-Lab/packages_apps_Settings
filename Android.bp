@@ -145,6 +145,10 @@ android_library {
         "androidx.compose.material3_material3-window-size-class",
         "androidx.activity_activity-compose",
         "androidx.core_core-ktx",
+
+        // Axion dependencies
+        "ax_compose",
+        "ax_deviceinfo",
     ],
 
     plugins: [

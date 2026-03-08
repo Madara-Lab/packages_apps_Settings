@@ -183,6 +183,15 @@
             android:summary="@string/accessibility_settings_summary"
             settings:highlightableMenuKey="@string/menu_key_accessibility"
             settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
+
+        <com.android.settings.widget.HomepagePreference
+            android:icon="@drawable/ic_homepage_about"
+            android:key="top_level_about_device"
+            android:order="-10"
+            android:title="@string/about_settings"
+            android:summary="@string/summary_placeholder"
+            settings:highlightableMenuKey="@string/menu_key_about_device"
+            settings:controller="com.android.settings.deviceinfo.matrixx.MatrixxAboutPreferenceController"/>
     </com.android.settingslib.widget.UntitledPreferenceCategory>
 
     <com.android.settingslib.widget.UntitledPreferenceCategory
@@ -271,16 +280,6 @@
         android:order="100"
         android:key="top_level_support_category"
         android:layout="@layout/settingslib_expressive_untitled_preference_category">
-
-        <com.android.settings.widget.HomepagePreference
-            android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
-            android:icon="@drawable/ic_homepage_about"
-            android:key="top_level_about_device"
-            android:order="20"
-            android:title="@string/about_settings"
-            android:summary="@string/summary_placeholder"
-            settings:highlightableMenuKey="@string/menu_key_about_device"
-            settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
 
         <com.android.settings.widget.HomepagePreference
             android:icon="@drawable/ic_homepage_support"
