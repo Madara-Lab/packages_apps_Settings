@@ -98,6 +98,12 @@
         android:summary="@string/show_ime_space_summary"
         android:defaultValue="true" />
 
+    <com.matrixx.settings.preferences.SecureSettingSwitchPreference
+        android:key="navigation_handle_hidden"
+        android:title="@string/navigation_handle_hide_title"
+        android:summary="@string/navigation_handle_hide_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="assistant_gesture_category"
         android:persistent="false"
