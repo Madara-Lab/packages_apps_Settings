@@ -11,7 +11,7 @@ import android.hardware.display.ColorDisplayManager;
 import androidx.preference.Preference;
 
 import com.android.settings.core.BasePreferenceController;
-import org.lunaris.settings.preferences.CustomSeekBarPreference;
+import com.matrixx.settings.preferences.CustomSeekBarPreference;
 
 public class ColorContrastPreferenceController extends BasePreferenceController implements
         Preference.OnPreferenceChangeListener {

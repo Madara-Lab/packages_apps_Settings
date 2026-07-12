@@ -16,7 +16,7 @@ import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.slices.SliceData;
 
-import org.lunaris.settings.preferences.CustomSeekBarPreference;
+import com.matrixx.settings.preferences.CustomSeekBarPreference;
 
 public class ColorTemperaturePreferenceController extends BasePreferenceController implements
         Preference.OnPreferenceChangeListener {

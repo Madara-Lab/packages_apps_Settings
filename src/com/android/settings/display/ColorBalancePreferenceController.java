@@ -24,7 +24,7 @@ import androidx.preference.PreferenceScreen;
 
 import com.android.settings.core.SliderPreferenceController;
 
-import org.lunaris.settings.preferences.CustomSeekBarPreference;
+import com.matrixx.settings.preferences.CustomSeekBarPreference;
 
 public class ColorBalancePreferenceController extends SliderPreferenceController {
 
